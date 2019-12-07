@@ -1,7 +1,15 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import {KeyboardAvoidingView, ScrollView, Text, StyleSheet} from "react-native";
 
-const Home = () => {
+const Home = ({navigation}) => {
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+    useEffect(() => {
+        if (!isAuthenticated) {
+            navigation.navigate("Login");
+        }
+    }, []);
+
     return (
         <KeyboardAvoidingView
             behavior="padding"
