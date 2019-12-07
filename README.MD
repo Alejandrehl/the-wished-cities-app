@@ -7,5 +7,8 @@
 
 ## Dependencies
 1. [React Navigation](https://reactnavigation.org/) 
+2. [React Navigation Drawer](https://yarnpkg.com/en/package/react-navigation-drawer)
+3. [React Navigation Stack](https://yarnpkg.com/en/package/react-navigation-stack)
+4. [React Native Gesture Handler](https://yarnpkg.com/en/package/react-native-gesture-handler)
+5. [React Native Reanimated](https://yarnpkg.com/en/package/react-native-reanimated)
 
-* yarn add react-navigation
