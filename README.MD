@@ -6,3 +6,6 @@
 3. yarn start
 
 ## Dependencies
+1. [React Navigation](https://reactnavigation.org/) 
+
+* yarn add react-navigation
