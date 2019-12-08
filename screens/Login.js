@@ -27,6 +27,7 @@ const Login = ({navigation}) => {
                         placeholder="email@address.com"
                         leftIcon={{type: 'font-awesome', name: 'envelope'}}
                         leftIconContainerStyle={styles.icon}
+                        containerStyle={styles.input}
                     />
                     <Input
                         label="Password"
@@ -34,6 +35,7 @@ const Login = ({navigation}) => {
                         leftIcon={{type: 'font-awesome', name: 'lock'}}
                         leftIconContainerStyle={styles.icon}
                         secureTextEntry={true}
+                        containerStyle={styles.input}
                     />
                     <Button title="Login" containerStyle={styles.button}/>
                     <Divider style={{ backgroundColor: 'black' }} />
@@ -69,6 +71,9 @@ const styles = StyleSheet.create({
     link: {
         marginVertical: 10,
         color: "#1A88FF"
+    },
+    input: {
+        marginBottom: 10
     }
 });
 
